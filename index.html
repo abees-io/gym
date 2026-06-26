@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GYM — Unleash Your Ultimate Potential</title>
+  <meta name="description" content="GYM is a premium fitness center featuring state-of-the-art equipment, world-class coaches, and an electrifying training environment. Join today and transform your body." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════ NAV ═══════════════════════════ -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo" id="nav-logo-link">
+        <span class="logo-text">GYM</span>
+        <span class="logo-dot"></span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero" class="nav-link">Home</a></li>
+        <li><a href="#equipment" class="nav-link">Equipment</a></li>
+        <li><a href="#coaches" class="nav-link">Coaches</a></li>
+        <li><a href="#membership" class="nav-link">Memberships</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#membership" class="btn btn-accent nav-cta" id="nav-join-btn">Join Now</a>
+      <button class="hamburger" id="hamburger-btn" aria-label="Toggle mobile menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <ul>
+        <li><a href="#hero" class="mob-link">Home</a></li>
+        <li><a href="#equipment" class="mob-link">Equipment</a></li>
+        <li><a href="#coaches" class="mob-link">Coaches</a></li>
+        <li><a href="#membership" class="mob-link">Memberships</a></li>
+        <li><a href="#contact" class="mob-link">Contact</a></li>
+      </ul>
+      <a href="#membership" class="btn btn-accent mob-cta" id="mob-join-btn">Join Now</a>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════ HERO ═══════════════════════════ -->
+  <section id="hero" class="hero" aria-label="Hero section">
+    <div class="hero-bg">
+      <img src="gym_hero_bg_1782473554292.png" alt="Athlete training in moody gym" class="hero-img" />
+      <div class="hero-overlay"></div>
+      <div class="hero-noise"></div>
+    </div>
+    <!-- Animated particles -->
+    <div class="particles" id="particles" aria-hidden="true"></div>
+    <div class="hero-content fade-in">
+      <div class="hero-badge" id="hero-badge">
+        <span class="badge-dot"></span>
+        PREMIUM FITNESS CENTER
+      </div>
+      <h1 class="hero-headline" id="hero-headline">
+        Unleash Your<br />
+        <span class="accent-text">Ultimate</span><br />
+        Potential
+      </h1>
+      <p class="hero-sub" id="hero-sub">
+        Where iron meets ambition. Train harder. Live stronger.<br class="desktop-only" />
+        Elite equipment. Expert coaches. Zero excuses.
+      </p>
+      <div class="hero-cta" id="hero-cta">
+        <a href="#membership" class="btn btn-accent btn-lg" id="hero-join-btn">
+          <span>Join Now</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#equipment" class="btn btn-ghost btn-lg" id="hero-explore-btn">
+          <span>Explore Memberships</span>
+        </a>
+      </div>
+      <div class="hero-stats" id="hero-stats">
+        <div class="stat-item">
+          <span class="stat-num" data-target="500">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Members</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-item">
+          <span class="stat-num" data-target="20">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Elite Coaches</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat-item">
+          <span class="stat-num" data-target="150">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Equipment Units</span>
+        </div>
+      </div>
+    </div>
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator" aria-hidden="true">
+      <span class="scroll-text">SCROLL</span>
+      <div class="scroll-line"><div class="scroll-dot"></div></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ EQUIPMENT ═══════════════════════════ -->
+  <section id="equipment" class="section equipment-section" aria-label="Equipment section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">STATE OF THE ART</span>
+        <h2 class="section-title">New Machinery &amp; <span class="accent-text">Equipment</span></h2>
+        <p class="section-desc">Engineered for performance. Built for champions. Our facility houses the latest generation of professional-grade training equipment.</p>
+      </div>
+      <div class="equipment-grid">
+
+        <div class="equip-card reveal" id="equip-strength">
+          <div class="equip-img-wrap">
+            <img src="equipment_strength_1782473575240.png" alt="Biomechanical Strength Machine" class="equip-img" loading="lazy" />
+            <div class="equip-glow"></div>
+            <div class="equip-badge-tag">NEW</div>
+          </div>
+          <div class="equip-info">
+            <h3 class="equip-title">Biomechanical Strength Matrix</h3>
+            <p class="equip-desc">Precision-engineered resistance curves that mirror natural joint mechanics for maximum hypertrophy.</p>
+            <div class="equip-tags">
+              <span class="tag">Strength</span>
+              <span class="tag">Hypertrophy</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="equip-card reveal" id="equip-cardio">
+          <div class="equip-img-wrap">
+            <img src="equipment_cardio_1782473594309.png" alt="Smart Cardio Deck" class="equip-img" loading="lazy" />
+            <div class="equip-glow"></div>
+            <div class="equip-badge-tag">SMART</div>
+          </div>
+          <div class="equip-info">
+            <h3 class="equip-title">Smart Cardio Command Deck</h3>
+            <p class="equip-desc">AI-driven adaptive training modules with biometric tracking and real-time performance analytics.</p>
+            <div class="equip-tags">
+              <span class="tag">Cardio</span>
+              <span class="tag">AI Training</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="equip-card reveal" id="equip-plates">
+          <div class="equip-img-wrap">
+            <img src="equipment_plates_1782473615963.png" alt="Plate-Loaded Station" class="equip-img" loading="lazy" />
+            <div class="equip-glow"></div>
+            <div class="equip-badge-tag">ELITE</div>
+          </div>
+          <div class="equip-info">
+            <h3 class="equip-title">Plate-Loaded Power Station</h3>
+            <p class="equip-desc">Heavy-duty compound movement platform designed for maximal strength output and powerlifting performance.</p>
+            <div class="equip-tags">
+              <span class="tag">Power</span>
+              <span class="tag">Compound</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="equip-card reveal" id="equip-cable">
+          <div class="equip-img-wrap equip-img-gradient">
+            <div class="equip-icon-big" aria-hidden="true">
+              <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="40" cy="40" r="36" stroke="var(--accent)" stroke-width="2" opacity="0.4"/>
+                <path d="M20 40 Q40 15 60 40 Q40 65 20 40Z" stroke="var(--accent)" stroke-width="2.5" fill="none"/>
+                <circle cx="40" cy="40" r="6" fill="var(--accent)" opacity="0.8"/>
+                <line x1="40" y1="10" x2="40" y2="20" stroke="var(--accent)" stroke-width="2"/>
+                <line x1="40" y1="60" x2="40" y2="70" stroke="var(--accent)" stroke-width="2"/>
+              </svg>
+            </div>
+            <div class="equip-badge-tag">PRO</div>
+          </div>
+          <div class="equip-info">
+            <h3 class="equip-title">Dual Cable Crossover System</h3>
+            <p class="equip-desc">360° functional movement cable array enabling infinite exercise variations for comprehensive muscle targeting.</p>
+            <div class="equip-tags">
+              <span class="tag">Functional</span>
+              <span class="tag">Full-Body</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="equip-card reveal" id="equip-rack">
+          <div class="equip-img-wrap equip-img-gradient">
+            <div class="equip-icon-big" aria-hidden="true">
+              <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="14" y="8" width="8" height="64" rx="2" fill="var(--accent)" opacity="0.2" stroke="var(--accent)" stroke-width="1.5"/>
+                <rect x="58" y="8" width="8" height="64" rx="2" fill="var(--accent)" opacity="0.2" stroke="var(--accent)" stroke-width="1.5"/>
+                <rect x="10" y="28" width="60" height="6" rx="2" fill="var(--accent)" opacity="0.5"/>
+                <rect x="10" y="46" width="60" height="6" rx="2" fill="var(--accent)" opacity="0.3"/>
+                <line x1="4" y1="28" x2="76" y2="28" stroke="var(--accent)" stroke-width="1" opacity="0.4"/>
+              </svg>
+            </div>
+            <div class="equip-badge-tag">PREMIUM</div>
+          </div>
+          <div class="equip-info">
+            <h3 class="equip-title">Olympic Power Rack System</h3>
+            <p class="equip-desc">Heavy-gauge steel squat and bench press station with safety spotter arms for solo maximum-effort lifts.</p>
+            <div class="equip-tags">
+              <span class="tag">Olympic</span>
+              <span class="tag">Safety</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="equip-card reveal" id="equip-assault">
+          <div class="equip-img-wrap equip-img-gradient">
+            <div class="equip-icon-big" aria-hidden="true">
+              <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="40" cy="40" r="28" stroke="var(--accent)" stroke-width="2" stroke-dasharray="5 3" opacity="0.5"/>
+                <path d="M25 55 L40 15 L55 55" stroke="var(--accent)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                <path d="M30 45 L50 45" stroke="var(--accent)" stroke-width="2" stroke-linecap="round"/>
+                <circle cx="40" cy="60" r="4" fill="var(--accent)" opacity="0.7"/>
+              </svg>
+            </div>
+            <div class="equip-badge-tag">HIIT</div>
+          </div>
+          <div class="equip-info">
+            <h3 class="equip-title">Assault AirBike Pro</h3>
+            <p class="equip-desc">Infinite resistance fan-driven bike delivering elite-level metabolic conditioning and full-body cardiovascular training.</p>
+            <div class="equip-tags">
+              <span class="tag">HIIT</span>
+              <span class="tag">Conditioning</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ COACHES ═══════════════════════════ -->
+  <section id="coaches" class="section coaches-section" aria-label="Coaches section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">WORLD-CLASS EXPERTISE</span>
+        <h2 class="section-title">Meet Your <span class="accent-text">Coaches</span></h2>
+        <p class="section-desc">Our certified professionals bring elite-level knowledge and relentless passion to transform your fitness journey.</p>
+      </div>
+      <div class="coaches-grid">
+
+        <div class="coach-card reveal" id="coach-marcus">
+          <div class="coach-img-wrap">
+            <img src="coach_1_1782473628575.png" alt="Coach Marcus Kane" class="coach-img" loading="lazy" />
+            <div class="coach-overlay">
+              <div class="coach-overlay-content">
+                <div class="cert-list">
+                  <div class="cert-item">
+                    <span class="cert-icon">🏆</span>
+                    <span>IFBB Pro Bodybuilder</span>
+                  </div>
+                  <div class="cert-item">
+                    <span class="cert-icon">📋</span>
+                    <span>NASM Certified PT</span>
+                  </div>
+                  <div class="cert-item">
+                    <span class="cert-icon">💪</span>
+                    <span>12+ Years Experience</span>
+                  </div>
+                  <div class="cert-item">
+                    <span class="cert-icon">🥇</span>
+                    <span>300+ Clients Transformed</span>
+                  </div>
+                </div>
+                <a href="#contact" class="btn btn-accent btn-sm coach-cta-btn" id="coach-marcus-btn">Book Session</a>
+              </div>
+            </div>
+          </div>
+          <div class="coach-info">
+            <h3 class="coach-name">Marcus Kane</h3>
+            <span class="coach-specialty">Bodybuilding &amp; Mass Gain</span>
+            <div class="coach-rating">
+              <span class="stars">★★★★★</span>
+              <span class="rating-val">5.0</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="coach-card reveal" id="coach-sofia">
+          <div class="coach-img-wrap">
+            <img src="coach_2_1782473640609.png" alt="Coach Sofia Rivera" class="coach-img" loading="lazy" />
+            <div class="coach-overlay">
+              <div class="coach-overlay-content">
+                <div class="cert-list">
+                  <div class="cert-item">
+                    <span class="cert-icon">🏅</span>
+                    <span>ACE Certified Trainer</span>
+                  </div>
+                  <div class="cert-item">
+                    <span class="cert-icon">🤸</span>
+                    <span>Functional Mobility Specialist</span>
+                  </div>
+                  <div class="cert-item">
+                    <span class="cert-icon">⏱️</span>
+                    <span>8+ Years Experience</span>
+                  </div>
+                  <div class="cert-item">
+                    <span class="cert-icon">🔥</span>
+                    <span>HIIT & Conditioning Expert</span>
+                  </div>
+                </div>
+                <a href="#contact" class="btn btn-accent btn-sm coach-cta-btn" id="coach-sofia-btn">Book Session</a>
+              </div>
+            </div>
+          </div>
+          <div class="coach-info">
+            <h3 class="coach-name">Sofia Rivera</h3>
+            <span class="coach-specialty">Functional Mobility &amp; HIIT</span>
+            <div class="coach-rating">
+              <span class="stars">★★★★★</span>
+              <span class="rating-val">4.9</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="coach-card reveal" id="coach-derek">
+          <div class="coach-img-wrap coach-img-gradient-wrap">
+            <div class="coach-placeholder" aria-hidden="true">
+              <div class="coach-avatar">
+                <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="60" cy="42" r="26" fill="var(--accent)" opacity="0.15" stroke="var(--accent)" stroke-width="2"/>
+                  <circle cx="60" cy="42" r="18" fill="var(--accent)" opacity="0.25"/>
+                  <ellipse cx="60" cy="98" rx="36" ry="22" fill="var(--accent)" opacity="0.1" stroke="var(--accent)" stroke-width="1.5"/>
+                </svg>
+              </div>
+            </div>
+            <div class="coach-overlay">
+              <div class="coach-overlay-content">
+                <div class="cert-list">
+                  <div class="cert-item">
+                    <span class="cert-icon">🥗</span>
+                    <span>Sports Nutritionist (ISSA)</span>
+                  </div>
+                  <div class="cert-item">
+                    <span class="cert-icon">🧠</span>
+                    <span>Metabolic Optimization</span>
+                  </div>
+                  <div class="cert-item">
+                    <span class="cert-icon">📅</span>
+                    <span>10+ Years Experience</span>
+                  </div>
+                  <div class="cert-item">
+                    <span class="cert-icon">📊</span>
+                    <span>Custom Diet Protocols</span>
+                  </div>
+                </div>
+                <a href="#contact" class="btn btn-accent btn-sm coach-cta-btn" id="coach-derek-btn">Book Session</a>
+              </div>
+            </div>
+          </div>
+          <div class="coach-info">
+            <h3 class="coach-name">Derek Osei</h3>
+            <span class="coach-specialty">Sports Nutrition &amp; Fat Loss</span>
+            <div class="coach-rating">
+              <span class="stars">★★★★★</span>
+              <span class="rating-val">4.8</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="coach-card reveal" id="coach-nina">
+          <div class="coach-img-wrap coach-img-gradient-wrap">
+            <div class="coach-placeholder" aria-hidden="true">
+              <div class="coach-avatar">
+                <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="60" cy="42" r="26" fill="var(--accent)" opacity="0.15" stroke="var(--accent)" stroke-width="2"/>
+                  <circle cx="60" cy="42" r="18" fill="var(--accent)" opacity="0.25"/>
+                  <ellipse cx="60" cy="98" rx="36" ry="22" fill="var(--accent)" opacity="0.1" stroke="var(--accent)" stroke-width="1.5"/>
+                </svg>
+              </div>
+            </div>
+            <div class="coach-overlay">
+              <div class="coach-overlay-content">
+                <div class="cert-list">
+                  <div class="cert-item">
+                    <span class="cert-icon">🧘</span>
+                    <span>Yoga & Flexibility Expert</span>
+                  </div>
+                  <div class="cert-item">
+                    <span class="cert-icon">💆</span>
+                    <span>Recovery & Rehab Specialist</span>
+                  </div>
+                  <div class="cert-item">
+                    <span class="cert-icon">📅</span>
+                    <span>7+ Years Experience</span>
+                  </div>
+                  <div class="cert-item">
+                    <span class="cert-icon">🏃</span>
+                    <span>Marathon & Endurance Coach</span>
+                  </div>
+                </div>
+                <a href="#contact" class="btn btn-accent btn-sm coach-cta-btn" id="coach-nina-btn">Book Session</a>
+              </div>
+            </div>
+          </div>
+          <div class="coach-info">
+            <h3 class="coach-name">Nina Patel</h3>
+            <span class="coach-specialty">Yoga, Recovery &amp; Endurance</span>
+            <div class="coach-rating">
+              <span class="stars">★★★★★</span>
+              <span class="rating-val">4.9</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ MEMBERSHIP ═══════════════════════════ -->
+  <section id="membership" class="section membership-section" aria-label="Membership plans section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">INVEST IN YOURSELF</span>
+        <h2 class="section-title">Choose Your <span class="accent-text">Plan</span></h2>
+        <p class="section-desc">Flexible membership options crafted for every level of commitment. No hidden fees. Just results.</p>
+      </div>
+      <div class="plans-grid">
+
+        <div class="plan-card reveal" id="plan-starter">
+          <div class="plan-tag">Starter</div>
+          <div class="plan-price">
+            <span class="currency">₹</span>
+            <span class="amount">1,499</span>
+            <span class="period">/month</span>
+          </div>
+          <ul class="plan-features">
+            <li><span class="check">✓</span> Full gym floor access</li>
+            <li><span class="check">✓</span> Locker room &amp; showers</li>
+            <li><span class="check">✓</span> 2 group classes/week</li>
+            <li><span class="check">✓</span> Fitness assessment</li>
+            <li class="muted"><span class="cross">✗</span> Personal training sessions</li>
+            <li class="muted"><span class="cross">✗</span> Nutrition consultation</li>
+          </ul>
+          <a href="#contact" class="btn btn-ghost btn-full" id="plan-starter-btn">Get Started</a>
+        </div>
+
+        <div class="plan-card plan-popular reveal" id="plan-elite">
+          <div class="plan-popular-label">MOST POPULAR</div>
+          <div class="plan-tag">Elite</div>
+          <div class="plan-price">
+            <span class="currency">₹</span>
+            <span class="amount">3,999</span>
+            <span class="period">/month</span>
+          </div>
+          <ul class="plan-features">
+            <li><span class="check">✓</span> Full gym floor access</li>
+            <li><span class="check">✓</span> Locker room &amp; showers</li>
+            <li><span class="check">✓</span> Unlimited group classes</li>
+            <li><span class="check">✓</span> Fitness assessment</li>
+            <li><span class="check">✓</span> 4 PT sessions/month</li>
+            <li><span class="check">✓</span> Nutrition consultation</li>
+          </ul>
+          <a href="#contact" class="btn btn-accent btn-full" id="plan-elite-btn">Join Elite</a>
+        </div>
+
+        <div class="plan-card reveal" id="plan-unlimited">
+          <div class="plan-tag">Unlimited</div>
+          <div class="plan-price">
+            <span class="currency">₹</span>
+            <span class="amount">7,499</span>
+            <span class="period">/month</span>
+          </div>
+          <ul class="plan-features">
+            <li><span class="check">✓</span> Full gym floor access</li>
+            <li><span class="check">✓</span> Premium locker suite</li>
+            <li><span class="check">✓</span> Unlimited group classes</li>
+            <li><span class="check">✓</span> Comprehensive assessment</li>
+            <li><span class="check">✓</span> Unlimited PT sessions</li>
+            <li><span class="check">✓</span> Monthly nutrition plan</li>
+          </ul>
+          <a href="#contact" class="btn btn-ghost btn-full" id="plan-unlimited-btn">Go Unlimited</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ CONTACT ═══════════════════════════ -->
+  <section id="contact" class="section contact-section" aria-label="Contact section">
+    <div class="container">
+
+      <!-- Quick Contact Bar -->
+      <div class="quick-contact-bar reveal">
+        <a href="tel:+919876543210" class="quick-contact-item" id="quick-phone">
+          <div class="qc-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.15 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.06 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21 16.92z"/></svg>
+          </div>
+          <div class="qc-text">
+            <span class="qc-label">Call Us Now</span>
+            <span class="qc-value">+91 98765 43210</span>
+          </div>
+        </a>
+        <div class="qc-divider" aria-hidden="true"></div>
+        <a href="mailto:hello@gymfitness.in" class="quick-contact-item" id="quick-email">
+          <div class="qc-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <div class="qc-text">
+            <span class="qc-label">Email Us</span>
+            <span class="qc-value">hello@gymfitness.in</span>
+          </div>
+        </a>
+        <div class="qc-divider" aria-hidden="true"></div>
+        <a href="https://wa.me/919876543210?text=Hi%20GYM!%20I%27d%20like%20to%20know%20more%20about%20memberships." target="_blank" rel="noopener noreferrer" class="quick-contact-item quick-contact-wa" id="quick-whatsapp">
+          <div class="qc-icon qc-icon-wa">
+            <svg width="20" height="20" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M16.004 0C7.163 0 .004 7.16.004 16c0 2.826.738 5.477 2.032 7.785L0 32l8.404-2.004A15.93 15.93 0 0 0 16.004 32C24.844 32 32 24.84 32 16S24.844 0 16.004 0zm0 29.333a13.29 13.29 0 0 1-6.785-1.852l-.487-.29-5.006 1.198 1.224-4.87-.32-.504A13.27 13.27 0 0 1 2.667 16c0-7.352 5.985-13.333 13.337-13.333S29.336 8.648 29.336 16c0 7.35-5.985 13.333-13.332 13.333zm7.314-9.997c-.4-.2-2.364-1.165-2.73-1.298-.367-.133-.634-.2-.9.2s-1.033 1.298-1.267 1.565c-.233.267-.467.3-.867.1s-1.69-.623-3.22-1.985c-1.19-1.06-1.993-2.37-2.227-2.77-.234-.4-.025-.617.175-.816.18-.18.4-.467.6-.7.2-.233.267-.4.4-.667.133-.267.067-.5-.033-.7-.1-.2-.9-2.166-1.233-2.967-.325-.78-.657-.673-.9-.686l-.767-.013c-.267 0-.7.1-1.067.5-.367.4-1.4 1.367-1.4 3.333s1.433 3.867 1.633 4.133c.2.267 2.82 4.3 6.832 6.033.955.413 1.7.66 2.28.845.958.306 1.83.263 2.52.16.77-.114 2.364-.967 2.697-1.9.333-.934.333-1.734.234-1.9-.1-.167-.367-.267-.767-.467z" fill="currentColor"/></svg>
+          </div>
+          <div class="qc-text">
+            <span class="qc-label">WhatsApp Chat</span>
+            <span class="qc-value">Message Instantly</span>
+          </div>
+        </a>
+        <div class="qc-divider" aria-hidden="true"></div>
+        <div class="quick-contact-item" id="quick-hours">
+          <div class="qc-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
+          </div>
+          <div class="qc-text">
+            <span class="qc-label">Open Today</span>
+            <span class="qc-value">5:00 AM – 11:00 PM</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-grid">
+        <!-- LEFT: Info + Map -->
+        <div class="contact-info reveal">
+          <span class="section-tag">GET IN TOUCH</span>
+          <h2 class="section-title">Start Your <span class="accent-text">Journey</span></h2>
+          <p class="contact-desc">Ready to transform? Our team is here 7 days a week to help you choose the right plan, find the perfect coach, and kick-start your elite fitness story.</p>
+
+          <div class="contact-details">
+            <a href="https://maps.google.com/?q=123+Power+Street" target="_blank" rel="noopener noreferrer" class="contact-item contact-item-link" id="contact-location">
+              <div class="contact-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <p class="contact-label">Our Location</p>
+                <p class="contact-val">123 Power Street, Fitness District<br/><span class="contact-sub">Mumbai, Maharashtra 400001</span></p>
+              </div>
+              <span class="contact-arrow">↗</span>
+            </a>
+
+            <a href="tel:+919876543210" class="contact-item contact-item-link" id="contact-phone">
+              <div class="contact-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.15 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.06 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21 16.92z"/></svg>
+              </div>
+              <div>
+                <p class="contact-label">Phone &amp; WhatsApp</p>
+                <p class="contact-val">+91 98765 43210<br/><span class="contact-sub">+91 98765 43211 (Helpdesk)</span></p>
+              </div>
+              <span class="contact-arrow">↗</span>
+            </a>
+
+            <a href="mailto:hello@gymfitness.in" class="contact-item contact-item-link" id="contact-email">
+              <div class="contact-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <p class="contact-label">Email Address</p>
+                <p class="contact-val">hello@gymfitness.in<br/><span class="contact-sub">support@gymfitness.in</span></p>
+              </div>
+              <span class="contact-arrow">↗</span>
+            </a>
+
+            <div class="contact-item" id="contact-hours">
+              <div class="contact-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
+              </div>
+              <div>
+                <p class="contact-label">Opening Hours</p>
+                <p class="contact-val">Mon – Sat: 5:00 AM – 11:00 PM<br/><span class="contact-sub">Sunday: 6:00 AM – 9:00 PM</span></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Social Links -->
+          <div class="contact-socials">
+            <p class="contact-label" style="margin-bottom:14px;">Follow Us</p>
+            <div class="contact-social-row">
+              <a href="#" class="contact-social-btn" id="cs-instagram" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                @gymfitness
+              </a>
+              <a href="#" class="contact-social-btn" id="cs-facebook" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                GYM Fitness
+              </a>
+              <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" class="contact-social-btn contact-social-wa" id="cs-whatsapp" aria-label="WhatsApp">
+                <svg viewBox="0 0 32 32" width="18" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M16.004 0C7.163 0 .004 7.16.004 16c0 2.826.738 5.477 2.032 7.785L0 32l8.404-2.004A15.93 15.93 0 0 0 16.004 32C24.844 32 32 24.84 32 16S24.844 0 16.004 0zm0 29.333a13.29 13.29 0 0 1-6.785-1.852l-.487-.29-5.006 1.198 1.224-4.87-.32-.504A13.27 13.27 0 0 1 2.667 16c0-7.352 5.985-13.333 13.337-13.333S29.336 8.648 29.336 16c0 7.35-5.985 13.333-13.332 13.333zm7.314-9.997c-.4-.2-2.364-1.165-2.73-1.298-.367-.133-.634-.2-.9.2s-1.033 1.298-1.267 1.565c-.233.267-.467.3-.867.1s-1.69-.623-3.22-1.985c-1.19-1.06-1.993-2.37-2.227-2.77-.234-.4-.025-.617.175-.816.18-.18.4-.467.6-.7.2-.233.267-.4.4-.667.133-.267.067-.5-.033-.7-.1-.2-.9-2.166-1.233-2.967-.325-.78-.657-.673-.9-.686l-.767-.013c-.267 0-.7.1-1.067.5-.367.4-1.4 1.367-1.4 3.333s1.433 3.867 1.633 4.133c.2.267 2.82 4.3 6.832 6.033.955.413 1.7.66 2.28.845.958.306 1.83.263 2.52.16.77-.114 2.364-.967 2.697-1.9.333-.934.333-1.734.234-1.9-.1-.167-.367-.267-.767-.467z" fill="currentColor"/></svg>
+                WhatsApp Us
+              </a>
+            </div>
+          </div>
+
+          <!-- Map Embed -->
+          <div class="contact-map reveal" id="contact-map">
+            <div class="map-wrap">
+              <iframe
+                title="GYM Location Map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.11609823356!2d72.74110193642735!3d19.08250155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                width="100%"
+                height="220"
+                style="border:0; border-radius:10px; filter:invert(90%) hue-rotate(180deg) saturate(0.8) brightness(0.85);"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: Form -->
+        <div class="contact-form-wrap reveal">
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname" placeholder="John" autocomplete="given-name" required />
+              </div>
+              <div class="form-group">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname" placeholder="Doe" autocomplete="family-name" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" autocomplete="email" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone / WhatsApp Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" autocomplete="tel" />
+            </div>
+            <div class="form-group">
+              <label for="goal">Your Fitness Goal</label>
+              <select id="goal" name="goal" required>
+                <option value="" disabled selected>Select your goal...</option>
+                <option value="muscle">Build Muscle &amp; Size</option>
+                <option value="fat-loss">Fat Loss &amp; Toning</option>
+                <option value="strength">Increase Strength</option>
+                <option value="endurance">Improve Endurance</option>
+                <option value="general">General Fitness</option>
+                <option value="rehab">Rehab &amp; Recovery</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message (Optional)</label>
+              <textarea id="message" name="message" rows="3" placeholder="Any questions, preferred schedule, or special requirements?"></textarea>
+            </div>
+            <button type="submit" class="btn btn-accent btn-full" id="contact-submit-btn">
+              <span id="submit-label">Send Message</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13M22 2L15 22l-4-9-9-4 20-7z"/></svg>
+            </button>
+            <div class="form-success" id="form-success" aria-live="polite">
+              <span>✅ Message sent! We'll contact you within 24 hours.</span>
+            </div>
+
+            <!-- Or WhatsApp -->
+            <div class="form-or">
+              <span class="form-or-line" aria-hidden="true"></span>
+              <span class="form-or-text">or reach us directly</span>
+              <span class="form-or-line" aria-hidden="true"></span>
+            </div>
+            <a href="https://wa.me/919876543210?text=Hi%20GYM!%20I%27d%20like%20to%20know%20more%20about%20membership%20plans." target="_blank" rel="noopener noreferrer" class="btn btn-wa btn-full" id="wa-form-btn">
+              <svg width="20" height="20" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M16.004 0C7.163 0 .004 7.16.004 16c0 2.826.738 5.477 2.032 7.785L0 32l8.404-2.004A15.93 15.93 0 0 0 16.004 32C24.844 32 32 24.84 32 16S24.844 0 16.004 0zm0 29.333a13.29 13.29 0 0 1-6.785-1.852l-.487-.29-5.006 1.198 1.224-4.87-.32-.504A13.27 13.27 0 0 1 2.667 16c0-7.352 5.985-13.333 13.337-13.333S29.336 8.648 29.336 16c0 7.35-5.985 13.333-13.332 13.333zm7.314-9.997c-.4-.2-2.364-1.165-2.73-1.298-.367-.133-.634-.2-.9.2s-1.033 1.298-1.267 1.565c-.233.267-.467.3-.867.1s-1.69-.623-3.22-1.985c-1.19-1.06-1.993-2.37-2.227-2.77-.234-.4-.025-.617.175-.816.18-.18.4-.467.6-.7.2-.233.267-.4.4-.667.133-.267.067-.5-.033-.7-.1-.2-.9-2.166-1.233-2.967-.325-.78-.657-.673-.9-.686l-.767-.013c-.267 0-.7.1-1.067.5-.367.4-1.4 1.367-1.4 3.333s1.433 3.867 1.633 4.133c.2.267 2.82 4.3 6.832 6.033.955.413 1.7.66 2.28.845.958.306 1.83.263 2.52.16.77-.114 2.364-.967 2.697-1.9.333-.934.333-1.734.234-1.9-.1-.167-.367-.267-.767-.467z" fill="currentColor"/></svg>
+              <span>Chat on WhatsApp</span>
+            </a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#hero" class="nav-logo" aria-label="GYM homepage">
+            <span class="logo-text">GYM</span>
+            <span class="logo-dot"></span>
+          </a>
+          <p class="footer-tagline">No shortcuts. No excuses.<br />Just relentless progress.</p>
+          <div class="social-links">
+            <a href="#" class="social-btn" id="social-instagram" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" class="social-btn" id="social-facebook" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" class="social-btn" id="social-youtube" aria-label="YouTube">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#equipment">Equipment</a></li>
+            <li><a href="#coaches">Coaches</a></li>
+            <li><a href="#membership">Memberships</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#coaches">Personal Training</a></li>
+            <li><a href="#coaches">Group Classes</a></li>
+            <li><a href="#coaches">Nutrition Coaching</a></li>
+            <li><a href="#equipment">Virtual Tours</a></li>
+            <li><a href="#membership">Corporate Plans</a></li>
+          </ul>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Stay in the Loop</h4>
+          <p>Get weekly tips, offers and transformation stories.</p>
+          <form class="newsletter-form" id="newsletter-form" novalidate>
+            <input type="email" id="newsletter-email" placeholder="Your email address" aria-label="Email for newsletter" />
+            <button type="submit" class="btn btn-accent" id="newsletter-submit-btn" aria-label="Subscribe">→</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 GYM Fitness Center. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══════════════════════════ WHATSAPP FLOATING CTA ═══════════════════════════ -->
+  <a
+    href="https://wa.me/919876543210?text=Hi%20GYM!%20I%27d%20like%20to%20know%20more%20about%20your%20membership%20plans."
+    class="whatsapp-fab"
+    id="whatsapp-fab"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Chat with us on WhatsApp"
+    title="Chat with us on WhatsApp"
+  >
+    <div class="whatsapp-pulse" aria-hidden="true"></div>
+    <div class="whatsapp-pulse whatsapp-pulse-2" aria-hidden="true"></div>
+    <svg class="whatsapp-icon" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M16.004 0C7.163 0 .004 7.16.004 16c0 2.826.738 5.477 2.032 7.785L0 32l8.404-2.004A15.93 15.93 0 0 0 16.004 32C24.844 32 32 24.84 32 16S24.844 0 16.004 0zm0 29.333a13.29 13.29 0 0 1-6.785-1.852l-.487-.29-5.006 1.198 1.224-4.87-.32-.504A13.27 13.27 0 0 1 2.667 16c0-7.352 5.985-13.333 13.337-13.333S29.336 8.648 29.336 16c0 7.35-5.985 13.333-13.332 13.333zm7.314-9.997c-.4-.2-2.364-1.165-2.73-1.298-.367-.133-.634-.2-.9.2s-1.033 1.298-1.267 1.565c-.233.267-.467.3-.867.1s-1.69-.623-3.22-1.985c-1.19-1.06-1.993-2.37-2.227-2.77-.234-.4-.025-.617.175-.816.18-.18.4-.467.6-.7.2-.233.267-.4.4-.667.133-.267.067-.5-.033-.7-.1-.2-.9-2.166-1.233-2.967-.325-.78-.657-.673-.9-.686l-.767-.013c-.267 0-.7.1-1.067.5-.367.4-1.4 1.367-1.4 3.333s1.433 3.867 1.633 4.133c.2.267 2.82 4.3 6.832 6.033.955.413 1.7.66 2.28.845.958.306 1.83.263 2.52.16.77-.114 2.364-.967 2.697-1.9.333-.934.333-1.734.234-1.9-.1-.167-.367-.267-.767-.467z" fill="#fff"/>
+    </svg>
+    <span class="whatsapp-tooltip">Chat on WhatsApp</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
