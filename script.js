@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════════
-   GYM — PREMIUM FITNESS CENTER  |  script.js
+   Odessy Gym — PREMIUM FITNESS CENTER  |  script.js
    Scroll animations · Counter · Nav · Particles · Form handling
    ═══════════════════════════════════════════════════════════════ */
 
